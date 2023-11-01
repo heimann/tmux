@@ -14,8 +14,10 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 mv ~/.tmux.conf ~/.tmux.conf.backup
 ```
 
+In this directory:
+
 2) Create symbolic links
 ```
-ln -s /home/david/.tmux-conf/tmux.conf ~/.tmux.conf
-ln -s /home/david/.tmux-conf/tmux.conf.linux ~/.tmux.conf.linux
+ln -s tmux.conf ~/.tmux.conf
+ln -s tmux.conf.linux ~/.tmux.conf.linux
 ```
